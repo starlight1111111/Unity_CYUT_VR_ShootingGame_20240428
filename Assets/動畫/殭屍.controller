@@ -51,7 +51,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
     m_Mirror: 0
-  m_BlendParameter: Blend
+  m_BlendParameter: "\u79FB\u52D5\u6578\u503C"
   m_BlendParameterY: Blend
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -66,7 +66,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: "\u6BAD\u5C4D_\u653B\u64CA"
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -221774866804992454}
@@ -117,7 +117,7 @@ AnimatorController:
   m_Name: "\u6BAD\u5C4D"
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Blend
+  - m_Name: "\u79FB\u52D5\u6578\u503C"
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0

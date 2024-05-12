@@ -4,9 +4,9 @@ using UnityEngine;
 public class HpSystem : MonoBehaviour
 {
     [SerializeField, Header("¦å¶q") ,Range(0, 500)]
-    private float hp;
+    protected float hp;
 
-    protected void Damage(float damage)
+    protected virtual void Damage(float damage)
     {
         hp -= damage;
 
